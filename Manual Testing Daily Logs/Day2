@@ -1,0 +1,65 @@
+📌What is SDLC in Software Testing?
+-SDLC stands for Software Development Life Cycle.SDLC is the process that defines how software is developed step by step — from planning to final release and maintenance.
+phases of SDLC : 
+1.Requirement Gathering	:Understanding what the user/customer wants
+2.Requirement analysis: Feasibility Study,Can we build it? Do we have time, money, tools?
+3.Design phase:	Planning how the software will look and work
+4.Development phase:Developers write the actual code
+5.Testing phase:Testers check if the software works correctly and has no bugs
+6.Deployment phase:The software is released to users
+7.Maintenance:Fix issues or add updates after release
+
+📌Role of testing in SDLC 
+Testing happens after development but is often planned early.
+Testers write test plans, test cases, and check the app for bugs and quality.
+It ensures the product is reliable, works as expected, and meets requirements.
+
+📌SDLC MODELS : 
+1 Waterfall Model :
+Linear and sequential
+Each phase must be completed before the next begins
+Easy to manage, but no going back
+Requirements are very clear and fixed then used 
+Requirement changes are not allowed 
+************************************************************
+2.Spiral Model :
+Combines Iterative + Risk Analysis
+Project goes in loops (spirals)
+Each loop involves planning, risk check, building, and testing
+Used when: Large, high-risk, and complex projects
+For each new requirement the model follows each phase of sdlc 
+new version release in each iteration.
+***************************************************************
+3.Prototype Model:
+quick working version (prototype) of the software is created before building the real product.
+When requirements are not clear 
+User feedback is important
+A rough version of the software is built early to gather user feedback.
+***************************************************************
+$.V Model:
+called VV model that is Verification & Validation ✔
+Extension of Waterfall
+Testing is planned alongside development
+For every development stage, there's a testing stage
+Used when: Quality is very important
+***************************************************************
+5.Agile Model :
+Most popular modern model
+Project is divided into small cycles called sprints
+Fast, flexible, customer feedback after each sprint
+Used when: Requirements change frequently
+
+
+📌Documentation : 
+1.BRD : Business requirement documentation
+2.FRD: Functional requirement documentation
+3.SRS : Software requirement specification
+
+
+
+
+
+
+
+
+
