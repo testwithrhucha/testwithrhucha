@@ -1,0 +1,191 @@
+
+📌What is SDLC ? 
+STLC stands for Software Testing Life Cycle, which is a sequence of specific activities conducted during the testing process to ensure software quality goals are met. It is a structured process followed by testing teams to improve the quality and effectiveness of testing.
+Phases of STLC (Software Testing Life Cycle):
+1.Requirement Analysis
+Understand and analyze the testing requirements from the Software Requirement Specification (SRS).
+dentify testable requirements.
+Tools may be selected, and risks are analyzed.
+2.Test Planning
+Create the test plan or strategy document.
+Decide on scope, budget, resources, schedule, and deliverables.
+Define test environment and tools.
+3.Test Case Design / Test Case Development
+Design test cases and test scripts.
+Prepare test data.
+Ensure traceability to requirements.
+4.Test Environment Setup
+Prepare hardware and software conditions under which testing will be done.
+Configure test servers, network, and tools.
+Ensure it's similar to the production environment.
+5.Test Execution
+Execute the test cases.
+Log defects for failed test cases.
+Re-test and regression testing are also performed.
+6.Test Closure
+Evaluate cycle completion criteria.
+Prepare test summary report.
+Document lessons learned and finalize test metrics.
+
+📌Why STLC is Important?
+Ensures systematic testing.
+Helps identify defects early.
+Provides clear roles, processes, and deliverables.
+Improves test coverage and quality of the final product.
+
+📌Software Testing Methodologies 
+❗ Types : 
+ 1. Black Box Testing
+~Definition:
+Testing the software without knowing its internal code or logic. Focus is only on inputs and outputs.
+~Performed By:
+Testers (manual or automation testers) who do not need coding knowledge.
+~Focus On:
+Functionality
+User Interface
+System behavior
+~ Examples:
+Functional testing
+Regression testing
+UI testing
+~Advantages:
+No need to understand programming
+Tests from the user's perspective
+~Disadvantages:
+Cannot test internal logic or structure
+Limited coverage
+***********************************************************************************************************************
+2. White Box Testing
+~Definition:
+Testing the software with full knowledge of the internal code, logic, and structure.
+~Performed By:
+Developers or technically skilled testers.
+~Focus On:
+Code flow
+Conditions and loops
+Internal structures
+~Examples:
+Unit testing
+Code coverage analysis
+Statement/Branch/Path testing
+~Advantages:
+Deep test coverage of logic and code
+Helps optimize the code
+~ Disadvantages:
+Requires programming knowledge
+Not useful for testing UI or overall functionality
+*************************************************************************************************************************
+3. Gray Box Testing
+~ Definition:
+A mix of Black Box and White Box Testing. Tester has partial knowledge of the internal code.
+~Performed By:
+Testers with some technical knowledge (e.g., automation testers, QA engineers)
+~Focus On:
+Functional + internal logic testing
+Security testing
+Integration points
+~Examples:
+Web application testing with access to database or logs
+API testing with partial backend knowledge
+~Advantages:
+More effective than pure black box
+Can identify both functional and structural issues
+~Disadvantages:
+Requires some technical skills
+Might still miss deep code-level bugs
+
+📌What Are the Static Testing Techniques
+
+1. Review
+A general examination of documents to find mistakes early.
+To improve the quality of documents and catch errors early.
+🔹Key Points:
+Informal process.
+No strict rules or roles.
+Anyone (tester, developer, manager) can review.
+🔹 Examples:
+Reviewing requirement documents.
+Peer review of test cases.
+
+2. Walkthrough
+
+An informal group discussion where the author of the document explains it to the team.
+To understand the document, gather feedback, and find potential issues.
+🔹 Key Points:
+Led by the author.
+Team asks questions and gives feedback.
+No formal defect logging.
+🔹 Participants:
+Author
+Peers (testers, developers, analysts)
+
+3. Inspection
+🔹 What it is:
+A formal and structured review technique with defined roles and checklists.
+To find defects and ensure standards are followed.
+🔹 Key Points:
+Planned and documented.
+Defects are logged in a report.
+Roles include Moderator, Reader, Recorder, and Author.
+🔹 Steps:
+Planning
+Overview Meeting
+Preparation
+Inspection Meeting
+Rework
+Follow-up
+
+What is QA,QC,QE ?
+
+QA : Quality Assurance >>Building in quality
+QA is a process-oriented approach that focuses on preventing defects in the software before they happen.
+QA is related to the process used to make software planning ,documentation ,testing 
+check whether the team follows SDLC steps 
+check right steps are followed to make good quality product by reviewing the document.
+
+🔹 Key Points:
+Focus on process improvement.
+Ensures right methods are followed in development/testing.
+Involves activities like audits, training, documentation review.
+Done throughout the SDLC.
+
+🔧 Example:
+Creating and following proper test plans, standards, and processes so that bugs are less likely to occur.
+
+2. QC: Quality Control>>Testing for quality
+QC is a product-oriented approach that focuses on finding and fixing defects in the actual product.
+Testing,finding,fixing bugs 
+Focuses on the product in which it meet testing requirment
+🔹 Key Points:
+Focus on identifying bugs.
+Involves testing the product (manual/automation).
+Done after development is completed.
+🔧 Example:
+Running test cases on a login page and reporting bugs if any issue is found.
+
+3. QE – Quality Engineering
+QE is a modern approach that integrates quality into the entire software development process using automation, tools, and DevOps practices.
+Automation testers writing code for the testing software.
+🔹 Key Points:
+Focus on building quality into the system.
+Uses automation, CI/CD, DevOps, test data generation, performance tools.
+QE = QA + coding + tools + strategy
+🔧 Example:
+Using test automation and CI/CD pipelines to catch issues early in the development cycle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
