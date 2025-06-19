@@ -1,0 +1,85 @@
+📌What are the Levels of Testing
+1. Unit Testing
+Testing of individual units or components of the software (like functions, methods, or classes).
+ Who performs it? : Developers
+Goal:Ensure each unit works **independently and correctly**.
+Tools (for automation): JUnit (Java), pytest (Python), NUnit (.NET)
+Example:Testing a login function that checks username and password.
+
+2. Integration Testing
+
+Testing how different modules or units work together when combined.
+Who performs it? :Developers or testers
+Goal: Ensure data flow and interaction between modules is correct.
+Types:
+* Top-down
+* Bottom-up
+* Big Bang
+* Hybrid
+
+Example: Testing login module with database to check if user credentials are stored and fetched properly.
+
+3. System Testing
+
+ What is it? : Testing the entire system as a whole to check if it meets the specified requirements.
+ Who performs it? : QA Testers
+Goal: Validate the complete and integrated software.
+Includes:
+* Functional testing
+* Performance testing
+* Security testing
+
+ Example: Testing a complete e-commerce application including login, cart, payment, etc.
+
+
+
+ 4. User Acceptance Testing (UAT)
+ What is it? :Testing done by the **end user or client** to verify that the software is ready for real-world use.
+
+ Who performs it? :Clients or end-users
+ Goal: Check if the software meets **business requirements** and is **ready for deployment**.
+ Types:
+* Alpha testing (by internal users)
+* Beta testing (by real users in real environment)
+Example: Client tests the booking process in a travel app to ensure it meets their needs.
+
+ 🧾 Summary Table
+
+| Testing Level       | Performed By  | Focus                        | Example                            |
+| ------------------- | ------------- | ---------------------------- | ---------------------------------- |
+| Unit Testing        | Developers    | Individual components        | Testing a login function           |
+| Integration Testing | Devs/Testers  | Module interactions          | Login + database integration       |
+| System Testing      | QA Testers    | Entire system functionality  | Full app flow (login to payment)   |
+| UAT                 | Clients/Users | Business needs and usability | Real user testing a travel booking |
+
+
+📌IMP📌
+System Testing :Testing the entire system as a whole to check if it meets the specified requirements.
+~~ GUI Testing : Graphical user interface testing is a Process of testing the user interface of an application .
+               Gui includes all the elements such as menus,checkbox,buttons,colors,fonts,icons,content,images etc
+~~ GUI Testing checklist : 
+Testing the size, position, width, height of the elements.
+Testing of the error messages that are getting displayed.
+Testing the different sections of the screen.
+Testing of the font whether it is readable or not.
+Testing of the screen in different resolutions with the help of zooming in and zooming out.
+Testing the alignment of the texts and other elements like icons, buttons, etc. are in proper place or not.
+Testing the colors of the fonts.
+Testing whether the image has good clarity or not.
+Testing the alignment of the images.
+Testing of the spelling
+The user must not get frustrated while using the system interface.
+Testing whether the interface is attractive or not.
+Testing of the scrollbars according to the size of the page if any.
+Testing of the disabled fields if any
+Testing of the size of the images.
+Testing of the headings whether it is properly aligned or not.
+Testing of the color of the hyperlink.
+Testing UI Elements like button, textbox, text area, check box, radio buttons, drop downs, links etc.
+
+📌Usability Testing :
+
+During this testing validates application provided context sensitive help or not to the user.
+Checks how easily the end users are able to understand and operate the application is called usability testing.
+
+
