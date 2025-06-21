@@ -1,0 +1,95 @@
+📌📌What is Functional Testing ?
+Functionlity is nothing but behavior of application.
+Functionality testing is talks about how the feature should work .
+Types Of Functional Testing : 
+1.Object Properties testing:
+check the properties of the objects present on the application.
+eg. enable,disable,visible,focus etc.
+
+2.database testing : 
+Check DML operations working or not .eg INSERT,UPDATE,DELETE,MODIFY etc
+Opeartion perform on UI are affect correctly on the database or not.
+Table validation(colomn type,col_length,number of colomns ).
+Relation between table(Normalization).
+Varify Functions,procedures,triggers,indexes,views etc.
+
+3.Error handling Testing :
+Verifying the error messages while performing incorrect actions.
+Error messages or errors should be in simple,redable and user understable language .
+
+4.Calculation / Manipulation Testing:
+Some applications like banking ,financial includes calculations so testing them make sure that they give correct result .
+
+5. Link existence & Link execution:
+Link existence - where the exactly links are placed.
+Link execution: links are navigate to proper page or not.
+Internal Links-links navigate to same page in different section.
+External Links: links naviaget to other page when we click.
+Broken Links : link is empty or not working ,when we click it does not contains any target page .
+
+6.Cookies And Session : 
+Cookies are temperory files which are made by browser while browsing the page through the internet.
+session are time slots created by the server it will expires when you idle for some time.
+
+📌📌What is Non Functional Testing ?
+Focus on expectations of users not the requirements ,expectations like performance ,security,and load etc.
+Once the functionality is stable then we do the non functional testing.
+Special tools are required for the performing non functional testing .
+
+Types Of Non Functional testing: 
+
+1. performance testing :
+check the overall performance of the application it is done with the web applications.
+cheacking the speed of the application.
+-Load Testing: gradaully increasing the load on the application then check the speed of the application.
+- Stress Testing : suddenly increase/decrease the load on the application then check the speed of the application.
+-volume testing ; check how much data is able to handle by the application.
+
+2.Security Testing:
+check how secure our application 
+authentication--> Users are valid or not.
+Autherization--> permission of the valid user.
+
+3.Recovery testing :
+Check the system provide recovery mechanism or not.
+check the system change to abnormal to normal.
+
+4.Compatibility testing :
+When the new version of application is launch check the new and old version working properly or not.
+forward compatibility.
+backward compatibility
+hardware compatibility -configuration testing.
+
+5.Installation testing :
+Installation process is working proper or not.
+check screens are clear to understand 
+simple and visible proper 
+un install process should remove all files.
+
+6. Sanitation testing :
+if any application provides extra functionality then we consider as it is a bug.
+it is also called as garbage testing.
+
+📌📌What is difference between Functional and Non functional testing ?
+
+~Functional Testing
+Validates functionality of Software.
+Functionality describes what software does.
+Concentrates on user requirement.
+Functional testing takes place before Non-functional testing.
+
+~Non-functional Testing
+Verify the performance, security, reliability of the software.
+Non-Functionality describes how software works.
+Concentrates on user expectation.
+Non-Functional testing performed after finishing Functional testing.
+
+
+
+
+
+
+
+
+
+
