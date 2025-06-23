@@ -1,0 +1,62 @@
+🗓️ Day 6
+
+📌📌What is Regression Testing ?
+
+When the developer modify some module then testers conducts testing on modified module to ensure it will not impact on other modules.
+
+1.Unit Regression testing:
+
+Testing only the module that is modified by developer.
+
+2.Regional Regression testing:
+
+Testing the module which is modified with the impacted module along with it.
+If the tester finds a bug in module it will pass to the developer to fix it.
+Developer do some changes in the module during this other modules get impacted which are related to this modified module so testing of those modules will be done.
+
+3.Full Regression testing:
+
+In the case when developer want to fix a bug it touch all the modules or modify 80 % modules in the system 
+so in this case instead of doing impact analysis the full regression testing will be conducted.
+
+📌📌 What is Re-Testing ?
+The bug is fixed by developer and the tester is re test this bug until it works as expected is called as re testing.
+Tester close the bug if it works otherwise it will sent back to developer.
+
+Example: Build 1.0 was released. Test team found some defects(defect ID 1.0.1,1.0.2,and posted)
+Build 1.0 was released now testing the defects 1.0.1 and 1.0.2 in this build is re testing.
+
+Example of retesting and regression testing:
+
+An application under test has three modules namely admin,purchase and finance.
+Finance module depends on the purchase module
+If a tester found a bug on the purchase module it will be reported to the developer.
+In re testing the after the bug is fixed the purchase module will be re tested.
+In regression testing the module finance is depends on the purchase so the finance module is also be tested.
+
+
+📌📌Smoke vs Sanity Testing : 
+
+Smoke Testing:
+Smoke Test is done to make sure the build we received from the development team is testable/stable or not
+Smoke Testing is performed by both Developers and Testers
+Smoke Testing, build may be either stable or unstable
+It is done on initial builds.
+It is a part of basic testing.
+Usually it is done every time there is a new build release.
+
+Sanity Testing:
+Sanity Test is done during the release phase to check for the main functionalities of the application without going deeper.
+Sanity Testing is performed by Testers alone
+Sanity Testing, build is relatively stable
+It is done on stable builds.
+It is a part of regression testing.
+It is planned when there is no enough time to do in-depth testing
+
+**Note**
+If smoke testing and sanity testing passed then only tester accept the build to further testing otherwise they reject the build ans pass to the developer.
+
+
+
+
+
