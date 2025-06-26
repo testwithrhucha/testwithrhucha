@@ -1,0 +1,76 @@
+🗓️ Day 8
+
+📌📌What is positive and negavtive testing ??
+==Positive Testing :
+
+Testing the application with valid inputs is called as Positive Testing.
+It checks whether an application behaves as expected with positive inputs.
+
+For example -
+Enter Only Numbers
+99999
+
+There is a text box in an application which can accept only numbers. Entering values up to 99999 will be acceptable by the system and any other values apart from this should not be acceptable.
+To do positive testing, set the valid input values from 0 to 99999 and check whether the system is accepting the values.
+
+==Negative Testing:
+
+Testing the application with invalid inputs is called as Negative Testing.
+
+It checks whether an application behaves as expected with the negative inputs.
+
+For example -
+Enter Only Numbers
+abcdef
+
+Negative testing can be performed by entering characters A to Z or from a to z. 
+Either software system should not accept the values or else it should throw an error message for these invalid data inputs.
+
+📌📌Positive V/s Negative Test Cases
+
+Requirement:
+For Example if a text box is listed as a feature and in FRS it is mentioned as Text box accepts 6-20 characters and only alphabets.
+
+Positive Test Cases:
+
+Textbox accepts 6 characters.
+Textbox accepts upto 20 chars length.
+Textbox accepts any value in between 6-20 chars length.
+Textbox accepts all alphabets.
+
+Negative Test Cases:
+
+Textbox should not accept less than 6 chars.
+Textbox should not accept chars more than 20 chars.
+Textbox should not accept special characters.
+Textbox should not accept numerical.
+
+📌📌END-TO-END Testing:
+
+Testing the overall functionalities of the system including the data integration among all the modules is called end-to-end testing.
+
+End-To-End Test
+
+1)Login
+2) ADD New Customer
+3)Edit customer
+4)Delete Customer
+5) Logout
+
+📌📌Globalization and Localization Testing
+
+==Globalization Testing:
+
+Performed to ensure the system or software application can run in any cultural or local environment.
+Different aspects of the software application are tested to ensure that it supports every language and different attributes.
+It tests the different currency formats, mobile number formats and address formats are supported by the application.
+For example, Facebook.com supports many of the languages and it can be accessed by people of different countries. Hence it is a globalized product.
+
+==Localization Testing:
+
+Performed to check system or software application for a specific geographical and cultural environment.
+Localized product only supports the specific kind of language and is usable only in specific region.
+It testes the specific currency format, mobile number format and address format is working properly or not.
+For example, Baidu.com supports only the Chinese language and can be accessed only by people of few countries. Hence it is a localized product.
+
+
