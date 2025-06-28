@@ -1,0 +1,38 @@
+🗓️ Day 9
+
+📌📌What is Test Design Technique and what are its types ??
+
+Test design techniques helps to design better cases.
+Reduce the number of test cases to be executed.
+
+1) Reduce the Data
+2) More Coverage
+
+Types
+Equivalence Class Partitioning
+Boundary Value Analysis (BVA)
+Decision Table based testing.
+State Transition
+Error Guessing
+
+1.Equivalence Class Partition (ECP)
+
+Partition data into various classes and we can select data according to class then test.
+It reduce the number of test-cases and saves time for testing.
+
+example:  Enter a number //textbox here//  * allows digits from 1--500 only
+
+Normal Test Data              Divide values into Equivalence Classes                    Test Data using ECP
+
+                                -100 to 0 -->50 (Invalid)                                      -50
+  1                               1-100 -->30 (Valid)                                           30
+  2                                101-200 -->160 (Valid)                                       160
+  3                               201-300 -->250 (Valid)                                        250
+  4                               301-400 -->320 (Valid)                                        320
+  .                              401-500 -->450 (Valid)                                         =450
+  .                               501-600 -->550 (Invalid)                                       550    
+  .                                                            
+
+
+
+
