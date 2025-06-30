@@ -19,20 +19,25 @@ Error Guessing
 
 Partition data into various classes and we can select data according to class then test.
 It reduce the number of test-cases and saves time for testing.
+Value check
+clasify/devide/partiton the data in to multiple classes
 
 example:  Enter a number //textbox here//  * allows digits from 1--500 only
 
 Normal Test Data              Divide values into Equivalence Classes                    Test Data using ECP
 
                                 -100 to 0 -->50 (Invalid)                                      -50
-  1                               1-100 -->30 (Valid)                                           30
-  2                                101-200 -->160 (Valid)                                       160
-  3                               201-300 -->250 (Valid)                                        250
-  4                               301-400 -->320 (Valid)                                        320
-  .                              401-500 -->450 (Valid)                                         =450
-  .                               501-600 -->550 (Invalid)                                       550    
+  1                              1-100 -->30 (Valid)                                            30
+  2                              101-200 -->160 (Valid)                                         160
+  3                              201-300 -->250 (Valid)                                         250
+  4                              301-400 -->320 (Valid)                                         320
+  .                              401-500 -->450 (Valid)                                         450
+  .                              501-600 -->550 (Invalid)                                       550  
   .                                                            
 
+2.Boundary Value Analysis (BVA)
+
+BVA technique used to check Boundaries of the input.
 
 
 
