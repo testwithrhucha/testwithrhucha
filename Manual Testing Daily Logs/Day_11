@@ -1,0 +1,126 @@
+
+🗓️ Day 11
+
+📌📌What is Test Plan and its Contents??
+
+A Test Plan is a document that describes the test scope, test strategy, objectives, schedule, deliverables and resources required to perform testing for a software product.
+
+Test plan template contents:
+
+1.Overview
+2.Scope
+-Inclusions
+-Test Environments
+-Exclusions
+4.Test Strategy
+5.Defect Reporting Procedure
+6.Roles/Responsibilities
+7.Test Schedule
+8.Test Deliverables
+9.Pricing
+10.Entry and Exit Criteria
+11.Suspension and Resumption Criteria
+12.Tools
+13.Risks and Mitigations
+14.Approvals
+
+📌📌What is Use case, Test Scenario & Test Case
+
+1.Use Case:
+
+Use case describes the requirement.
+Use case contains THREE Items.
+Actor, which is the user, which can be a single person or a group of people, interacting with a process.
+Action, which is to reach the final outcome
+Goal/Outcome, which is the successful user outcome.
+
+2.Test Scenario:
+
+A possible area to be tested (What to test)
+
+3.Test Case:
+
+Step by step actions to be performed to validate functionality of AUT (How to test).
+Test case contains test steps, expected result & actual result.
+
+
+📌📌Use Case V/s Test Case
+
+Use Case - Describes functional requirement, prepared by Business Analyst(BA).
+
+Test Case - Describes Test Steps/ Procedure, prepared by Test Engineer.
+
+📌📌Test Scenario V/s Test Case
+
+Test Scenario is 'What to be tested' and Test Case is 'How to be tested'.
+
+
+Example:-
+
+Test Scenario: Checking the functionality of Login button
+
+TC1: Click the button without entering user name and password.
+
+TC2: Click the button only entering User name.
+
+TC3: Click the button while entering wrong user name and wrong password.
+
+📌📌What is Test Suite??
+
+Test Suite is group of test cases which belongs to same category.
+
+
+                                          Test Case 1
+                      
+                         Test Suite 1     Test case 2
+
+                                          Test case 3
+
+
+
+                                      
+                                           Test Case 1     Test case 3
+
+Test Plan ------------> Test Suite 2    
+                                           Test case 2     Test case.n
+
+
+
+
+                    
+                                           Test Case 1
+                      
+                       Test Suite 3        Test case 2
+
+                                           Test case 3
+
+
+
+📌📌What is Test case? Test Case Contents??
+
+A Test Case is a set of actions executed to validate particular feature or functionality of your software application.
+
+Test Case Contents:
+
+Test Case ID
+
+Test Case Title
+
+Description
+
+Pre-condition
+
+Priority (PO, P1,P2,P3) - order
+
+Requirement ID
+
+Steps/Actions
+
+Expected Result
+
+Actual Result
+
+Test data
+
+
+
