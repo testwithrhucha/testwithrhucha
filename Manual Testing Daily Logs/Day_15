@@ -1,0 +1,45 @@
+🗓️ Day 15
+📌📌7 Principles of Software Testing:
+
+1. Start software testing at early stages. Means from the beginning when you get the requirements.
+
+2. Test the software in order to find the defects.
+
+3. Highly impossible to give the bug free software to the customer.
+
+4. Should not do Exhaustive testing. Means we should not use same type of data for testing every time.
+
+5. Testing is context based. Means decide what types of testing should be conducted based on type of application.
+
+6. We should follow the concept of Pesticide Paradox. Means, if you are executing same cases for longer run, they wont be find any defects. We have to keep update test cases in every cycle/release in order to find more defects.
+
+7. We should follow defect clustering. Means some of the modules contains most of the defects. By experience, we can identify such risky modules. 80% of the problems are found in 20% of the modules.
+
+📌📌White box testing techniques :
+
+There are many ways you can analyze software with white box testing. Most testers will use a process called  code coverage analysis to eliminate gaps in the testing of the code. There are a variety of techniques you can  use to accomplish this, including: 
+
+Statement coverage: 
+This technique ensures that each line in the code is tested at least once to find faulty code more easily. Branch coverage: 
+Using this technique, each possible path or decision point of a software application is checked for  accuracy. 
+
+Condition coverage: 
+All individual conditions are checked. 
+
+Multiple condition coverage: 
+All imaginable combinations of all the conceivable condition outcomes are tested at least once.
+
+Basis path testing: 
+Control graphs are created from either flowcharts or code. Cyclomatic complexity is then calculated to  define the number of independent paths so that the minimum number of test cases can be designed for  each path. 
+
+Flow chart notation: 
+This technique uses a directed graph made up of nodes and edges, where each node represents a decision  point or sequence of statements. 
+
+Cyclomatic complexity: 
+This is the measure of a software's logical and cyclomatic complexity. It is used to define how many  independent paths are present. 
+
+Loop testing: 
+Loops are commonly used in white box testing and are fundamental to many algorithms. Problems are  often found at the beginning or the end of a loop. Loop testing can be divided into simple loops, nested  loops and concatenated loops.
+
+
+
