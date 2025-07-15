@@ -1,0 +1,63 @@
+🗓️ Day 13
+
+📌📌What is Defect Severity ??
+
+Severity describes the seriousness of defect and how much impact on Business workflow.
+
+Defect severity can be categorized into four class
+
+Blocker(Show stopper): This defect indicates nothing can proceed further.
+Ex: Application crashed, Login Not worked
+
+Critical: The main/basic functionality is not working. Customer business workflow is broken. They cannot proceed further.
+Ex1: Fund transfer is not working in net banking
+Ex2: Ordering product in ecommerce application is not working.
+
+Major: It cause some undesirable behavior, but the feature/application is still functional.
+Ex1: After sending email there is no confirm message
+Ex2: After booking cab there is no confirmation.
+
+Minor: It won't cause any major break-down of the system
+Ex: Look and feel issues, spellings, alignments.
+
+📌📌What is Defect Priority??
+
+Priority describes the importance of defect.
+Defect Priority states the order in which a defect should be fixed.
+
+Defect priority can be categorized into three class
+
+PO (High): The defect must be resolved immediately as it affects the system severely and cannot be used until it is fixed.
+P1 (Medium): It can wait until a new versions/builds is created
+P2 (Low): Developer can fix it in later releases.
+
+-Examples :
+
+Low priority-Low severity - A spelling mistake in a page not frequently navigated by users.
+
+Low priority-High severity - Application crashing in some very corner case.
+
+High priority-Low severity - Slight change in logo color or spelling mistake in company name.
+
+High priority-High severity - Issue with login functionality. (user is not able to login to the application)
+
+High Severity- Low Priority - Web page not found when user clicks on a link (user does not visit that page generally)
+
+Low Priority-Low Severity - Any cosmetic or spelling issues which is within a paragraph or in the page
+
+
+
+📌📌Defect Resolution
+
+After receiving the defect report from the testing team, development team conduct a review meeting to fix defects. Then they send a Resolution Type to the testing team for further communication.
+
+Resolution Types:-
+
+Accept
+Reject
+Duplicate
+Enhancement
+Need more information
+Not Reproducible
+Fixed
+As Designed
